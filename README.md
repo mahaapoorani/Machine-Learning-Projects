@@ -1,31 +1,41 @@
-# Machine-Learning-Projects
+# Machine Learning Projects
 
-# California Housing Price Prediction
+## 1. Linear Regression
 
-## Project Overview
-This project predicts median house values in California using machine learning.
+### California Housing Price Prediction
 
-## Workflow
-1. Data Loading
-2. Data Exploration
-3. Missing Value Handling
-4. One-Hot Encoding
-5. Train-Test Split
-6. Linear Regression Training
-7. Model Evaluation
+- Built using Scikit-Learn
+- Evaluated using MAE and R² Score
+- Learned train-test split and model evaluation
 
-## Results
-- MAE: 50,701
-- R² Score: 0.626
+---
 
-## Technologies
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
+## 2. Decision Tree Regression
 
-## Future Improvements
-- Feature Scaling
-- Decision Tree Regressor
-- Random Forest Regressor
+### California Housing Price Prediction
+
+- Implemented DecisionTreeRegressor
+- Explored overfitting and underfitting
+- Tuned max_depth parameter
+
+### Results
+
+| Max Depth | Train R² | Test R² |
+|------------|-----------|-----------|
+| 3 | 0.57 | 0.55 |
+| 5 | 0.64 | 0.61 |
+| 10 | 0.82 | 0.71 |
+| 12 | 0.89 | 0.69 |
+| None | 1.00 | 0.63 |
+
+Best Model:
+- max_depth = 10
+- Test R² = 0.71
+- MAE ≈ 40,708
+
+### Key Learnings
+
+- Decision Trees
+- Overfitting
+- Underfitting
 - Hyperparameter Tuning
