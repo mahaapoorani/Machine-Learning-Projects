@@ -33,6 +33,35 @@ Best Model:
 - Test R² = 0.71
 - MAE ≈ 40,708
 
+## 3. Random Forest Regression
+
+### California Housing Price Prediction
+
+Random Forest Regression was implemented and compared against Linear Regression and Decision Tree Regression.
+
+### Hyperparameter Tuning
+
+| n_estimators | Test R² | MAE |
+|-------------|----------|---------|
+| 10 | 0.800 | 33291 |
+| 50 | 0.816 | 31990 |
+| 100 | 0.817 | 31668 |
+| 200 | 0.818 | 31522 |
+
+### Best Model
+
+- n_estimators = 200
+- Train R² = 0.976
+- Test R² = 0.818
+- MAE = 31522
+
+### Key Learnings
+
+- Ensemble Learning
+- Bagging
+- Random Forest Regression
+- Hyperparameter Tuning
+- Diminishing Returns
 ### Key Learnings
 
 - Decision Trees
