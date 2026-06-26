@@ -67,4 +67,106 @@ Random Forest Regression was implemented and compared against Linear Regression 
 - Decision Trees
 - Overfitting
 - Underfitting
+## 4. Ridge Regression
+
+### Project Overview
+
+This project demonstrates **Ridge Regression** on the California Housing Prices dataset. Ridge Regression is a regularized version of Linear Regression that helps reduce overfitting by adding an **L2 penalty** to the model's loss function.
+
+---
+
+### Dataset
+
+* **Dataset:** California Housing Prices
+* **Target Variable:** `median_house_value`
+
+---
+
+### Data Preprocessing
+
+The following preprocessing steps were performed before training the model:
+
+* Loaded the California Housing dataset.
+* Checked dataset information and data types.
+* Identified missing values.
+* Filled missing values in `total_bedrooms` using the median.
+* Applied One-Hot Encoding to the categorical feature (`ocean_proximity`).
+* Split the dataset into training and testing sets.
+* Standardized numerical features using `StandardScaler`.
+
+---
+
+### Model
+
+Algorithm Used:
+
+* Ridge Regression
+
+Hyperparameter:
+
+* `alpha = 0.01`
+* `alpha = 0.1`
+* `alpha = 1`
+* `alpha = 10`
+* `alpha = 100`
+
+---
+
+### Model Performance
+
+| Metric   |     Value |
+| -------- | --------: |
+| Train R² |    0.6497 |
+| Test R²  |    0.6272 |
+| MAE      | 50,510.98 |
+
+Best result obtained with:
+
+* **Alpha = 100**
+
+---
+
+### Alpha Comparison
+
+|      Alpha |     Train R² |      Test R² |           MAE |
+| ---------: | -----------: | -----------: | ------------: |
+|       0.01 |     0.649665 |     0.625424 |     50,670.71 |
+|       0.10 |     0.649665 |     0.625427 |     50,670.48 |
+|       1.00 |     0.649665 |     0.625457 |     50,668.12 |
+|      10.00 |     0.649658 |     0.625736 |     50,646.17 |
+| **100.00** | **0.649153** | **0.627228** | **50,510.98** |
+
+---
+
+### Key Learnings
+
+* Ridge Regression is an extension of Linear Regression.
+* Ridge uses **L2 Regularization** to reduce overfitting.
+* The `alpha` parameter controls the strength of regularization.
+* Feature scaling is important before applying Ridge Regression.
+* Increasing `alpha` increases regularization strength.
+* Very large `alpha` values can lead to underfitting.
+* Ridge performs well when features are highly correlated (multicollinearity).
+
+---
+
+### Skills Practiced
+
+* Data preprocessing
+* Missing value handling
+* One-Hot Encoding
+* Feature Scaling (`StandardScaler`)
+* Ridge Regression
+* Hyperparameter Tuning
+* Model Evaluation
+* Regression Metrics (MAE, R²)
+
+---
+
+### Libraries Used
+
+* Pandas
+* NumPy
+* Scikit-learn
+
 - Hyperparameter Tuning
