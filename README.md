@@ -148,34 +148,13 @@ Best result obtained with:
 * Very large `alpha` values can lead to underfitting.
 * Ridge performs well when features are highly correlated (multicollinearity).
 
----
+## Cross Validation
 
-### Skills Practiced
-
-* Data preprocessing
-* Missing value handling
-* One-Hot Encoding
-* Feature Scaling (`StandardScaler`)
-* Ridge Regression
-* Hyperparameter Tuning
-* Model Evaluation
-* Regression Metrics (MAE, R²)
-
----
-
-### Libraries Used
-
-* Pandas
-* NumPy
-* Scikit-learn
-
-### Cross Validation
-
-## Objective
+### Objective
 
 Evaluate model performance more reliably using multiple train-test splits.
 
-## Concepts Learned
+### Concepts Learned
 
 K-Fold Cross Validation
 Average Validation Score
@@ -183,18 +162,18 @@ Standard Deviation
 Model Stability
 Generalization
 
-## Best Result
+### Best Result
 
 Average Cross Validation R²: 0.824
 Standard Deviation: 0.0096
 
-### GridSearchCV
+## GridSearchCV
 
-## Objective
+### Objective
 
 Automatically identify the best hyperparameter combination using exhaustive search.
 
-## Concepts Learned
+### Concepts Learned
 
 Hyperparameter Tuning
 Parameter Grid
@@ -203,19 +182,19 @@ Best Parameters
 Best Estimator
 Best Cross Validation Score
 
-## Hyperparameters Tuned
+### Hyperparameters Tuned
 
 n_estimators
 max_depth
 min_samples_split
 
-### RandomizedSearchCV
+## RandomizedSearchCV
 
-## Objective
+### Objective
 
 Perform efficient hyperparameter tuning by randomly sampling parameter combinations.
 
-## Concepts Learned
+### Concepts Learned
 
 Randomized Hyperparameter Search
 n_iter
@@ -238,38 +217,38 @@ MAE: 31,548
 
 
 ## Machine Learning Concepts Covered
-Regression Algorithms
-Linear Regression
-Decision Tree Regression
-Random Forest Regression
-Ridge Regression
-Model Evaluation
-Train/Test Split
-MAE (Mean Absolute Error)
-R² Score
-Actual vs Predicted Analysis
-Feature Engineering
-Missing Value Imputation
-One-Hot Encoding
-Feature Scaling
-Feature Importance
-Model Validation
-K-Fold Cross Validation
-Model Stability Analysis
-Hyperparameter Tuning
-Manual Hyperparameter Tuning
-GridSearchCV
-RandomizedSearchCV
-Learning Outcomes
+-Regression Algorithms
+-Linear Regression
+-Decision Tree Regression
+-Random Forest Regression
+-Ridge Regression
+-Model Evaluation
+-Train/Test Split
+-MAE (Mean Absolute Error)
+-R² Score
+-Actual vs Predicted Analysis
+-Feature Engineering
+-Missing Value Imputation
+-One-Hot Encoding
+-Feature Scaling
+-Feature Importance
+-Model Validation
+-K-Fold Cross Validation
+-Model Stability Analysis
+-Hyperparameter Tuning
+-Manual Hyperparameter Tuning
+-GridSearchCV
+-RandomizedSearchCV
+-Learning Outcomes
 
 ## Through these projects, I gained practical experience in:
 
-Data preprocessing
-Building regression models
-Evaluating model performance
-Detecting overfitting and underfitting
-Improving models using regularization
-Applying feature engineering techniques
-Performing hyperparameter tuning
-Using cross-validation for robust evaluation
-Comparing multiple machine learning algorithms on the same datas
+-Data preprocessing
+-Building regression models
+-Evaluating model performance
+-Detecting overfitting and underfitting
+-Improving models using regularization
+-Applying feature engineering techniques
+-Performing hyperparameter tuning
+-Using cross-validation for robust evaluation
+-Comparing multiple machine learning algorithms on the same datas
