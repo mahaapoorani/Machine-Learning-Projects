@@ -169,4 +169,107 @@ Best result obtained with:
 * NumPy
 * Scikit-learn
 
-- Hyperparameter Tuning
+### Cross Validation
+
+## Objective
+
+Evaluate model performance more reliably using multiple train-test splits.
+
+## Concepts Learned
+
+K-Fold Cross Validation
+Average Validation Score
+Standard Deviation
+Model Stability
+Generalization
+
+## Best Result
+
+Average Cross Validation R²: 0.824
+Standard Deviation: 0.0096
+
+### GridSearchCV
+
+## Objective
+
+Automatically identify the best hyperparameter combination using exhaustive search.
+
+## Concepts Learned
+
+Hyperparameter Tuning
+Parameter Grid
+Cross Validation
+Best Parameters
+Best Estimator
+Best Cross Validation Score
+
+## Hyperparameters Tuned
+
+n_estimators
+max_depth
+min_samples_split
+
+### RandomizedSearchCV
+
+## Objective
+
+Perform efficient hyperparameter tuning by randomly sampling parameter combinations.
+
+## Concepts Learned
+
+Randomized Hyperparameter Search
+n_iter
+Faster Optimization
+Trade-off Between Speed and Accuracy
+
+Best Hyperparameters Found
+
+{
+    'n_estimators': 300,
+    'max_depth': 20,
+    'min_samples_split': 5
+}
+
+Performance
+
+Cross Validation R²: 0.8187
+Test R²: 0.8186
+MAE: 31,548
+
+
+## Machine Learning Concepts Covered
+Regression Algorithms
+Linear Regression
+Decision Tree Regression
+Random Forest Regression
+Ridge Regression
+Model Evaluation
+Train/Test Split
+MAE (Mean Absolute Error)
+R² Score
+Actual vs Predicted Analysis
+Feature Engineering
+Missing Value Imputation
+One-Hot Encoding
+Feature Scaling
+Feature Importance
+Model Validation
+K-Fold Cross Validation
+Model Stability Analysis
+Hyperparameter Tuning
+Manual Hyperparameter Tuning
+GridSearchCV
+RandomizedSearchCV
+Learning Outcomes
+
+## Through these projects, I gained practical experience in:
+
+Data preprocessing
+Building regression models
+Evaluating model performance
+Detecting overfitting and underfitting
+Improving models using regularization
+Applying feature engineering techniques
+Performing hyperparameter tuning
+Using cross-validation for robust evaluation
+Comparing multiple machine learning algorithms on the same datas
