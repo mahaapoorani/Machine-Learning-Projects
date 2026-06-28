@@ -217,38 +217,60 @@ MAE: 31,548
 
 
 ## Machine Learning Concepts Covered
--Regression Algorithms
--Linear Regression
--Decision Tree Regression
--Random Forest Regression
--Ridge Regression
--Model Evaluation
--Train/Test Split
--MAE (Mean Absolute Error)
--R² Score
--Actual vs Predicted Analysis
--Feature Engineering
--Missing Value Imputation
--One-Hot Encoding
--Feature Scaling
--Feature Importance
--Model Validation
--K-Fold Cross Validation
--Model Stability Analysis
--Hyperparameter Tuning
--Manual Hyperparameter Tuning
--GridSearchCV
--RandomizedSearchCV
--Learning Outcomes
+- Regression Algorithms
+- Linear Regression
+- Decision Tree Regression
+- Random Forest Regression
+- Ridge Regression
+- Model Evaluation
+- Train/Test Split
+- MAE (Mean Absolute Error)
+- R² Score
+- Actual vs Predicted Analysis
+- Feature Engineering
+- Missing Value Imputation
+- One-Hot Encoding
+- Feature Scaling
+- Feature Importance
+- Model Validation
+- K-Fold Cross Validation
+- Model Stability Analysis
+- Hyperparameter Tuning
+- Manual Hyperparameter Tuning
+- GridSearchCV
+- RandomizedSearchCV
+- Learning Outcomes
 
-## Through these projects, I gained practical experience in:
+## 🎯 Learning Outcomes
 
--Data preprocessing
--Building regression models
--Evaluating model performance
--Detecting overfitting and underfitting
--Improving models using regularization
--Applying feature engineering techniques
--Performing hyperparameter tuning
--Using cross-validation for robust evaluation
--Comparing multiple machine learning algorithms on the same datas
+Through these projects, I gained hands-on experience in:
+
+- Data preprocessing (handling missing values and one-hot encoding)
+- Splitting data into training and testing sets
+- Building regression models using Scikit-learn
+- Understanding Linear Regression, Decision Tree Regression, Random Forest Regression, and Ridge Regression
+- Evaluating models using MAE and R² Score
+- Identifying and reducing overfitting and underfitting
+- Performing feature engineering and feature importance analysis
+- Applying feature scaling for regularized models
+- Using K-Fold Cross Validation to measure model generalization
+- Performing manual hyperparameter tuning
+- Optimizing models using GridSearchCV and RandomizedSearchCV
+- Comparing multiple machine learning algorithms on the same dataset
+- Interpreting model predictions and evaluation metrics
+- Writing clean, structured, and reproducible machine learning code
+
+## 📚 Skills Developed
+
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+- Machine Learning
+- Data Preprocessing
+- Feature Engineering
+- Model Evaluation
+- Hyperparameter Tuning
+- Cross Validation
+- Ensemble Learning
+- Regression Analysis
