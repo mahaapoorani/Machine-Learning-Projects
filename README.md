@@ -328,3 +328,14 @@ Implemented **Logistic Regression** on the **Breast Cancer Wisconsin Dataset** t
 - NumPy
 - Matplotlib
 - Scikit-learn
+
+# K- Nearest Neighbors
+
+## Learning Outcomes
+
+- Understood the working principle of the K-Nearest Neighbors algorithm.
+- Learned why feature scaling is essential for distance-based algorithms.
+- Implemented KNN classification on the Breast Cancer dataset.
+- Evaluated the model using Accuracy, Confusion Matrix, Precision, Recall, and F1-Score.
+- Compared model performance for different values of K.
+- Learned how choosing K affects overfitting and underfitting.
