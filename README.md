@@ -339,3 +339,15 @@ Implemented **Logistic Regression** on the **Breast Cancer Wisconsin Dataset** t
 - Evaluated the model using Accuracy, Confusion Matrix, Precision, Recall, and F1-Score.
 - Compared model performance for different values of K.
 - Learned how choosing K affects overfitting and underfitting.
+
+# Decision Tree Classifier
+
+## Learning Outcomes
+
+- Implemented Decision Tree Classification on the Breast Cancer dataset.
+- Learned how Decision Trees use Gini Index to create the best splits.
+- Understood why Decision Trees do not require feature scaling.
+- Evaluated the model using Accuracy, Confusion Matrix, Precision, Recall, and F1-Score.
+- Analyzed feature importance to identify the most influential features.
+- Compared different `max_depth` values to understand underfitting and overfitting.
+
