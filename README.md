@@ -67,6 +67,7 @@ Random Forest Regression was implemented and compared against Linear Regression 
 - Decision Trees
 - Overfitting
 - Underfitting
+  
 ## 4. Ridge Regression
 
 ### Project Overview
@@ -274,3 +275,56 @@ Through these projects, I gained hands-on experience in:
 - Cross Validation
 - Ensemble Learning
 - Regression Analysis
+
+# Logistic Regression - Breast Cancer Classification
+
+## Overview
+Implemented **Logistic Regression** on the **Breast Cancer Wisconsin Dataset** to classify tumors as **Malignant** or **Benign**.
+
+## Dataset
+- Source: Scikit-learn Breast Cancer Dataset
+- Samples: 569
+- Features: 30
+- Classes:
+  - 0 → Malignant
+  - 1 → Benign
+
+## Workflow
+- Data Loading
+- Data Exploration
+- Train-Test Split
+- Feature Scaling (StandardScaler)
+- Logistic Regression Model
+- Model Evaluation
+
+## Model Performance
+- Accuracy: **97.37%**
+- Confusion Matrix:
+  ```
+  [[41  2]
+   [ 1 70]]
+  ```
+- Evaluated using:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-Score
+  - ROC Curve
+  - AUC Score
+
+## Key Learnings
+- Binary Classification
+- Logistic Regression
+- Sigmoid Function
+- Feature Scaling
+- Confusion Matrix
+- Precision, Recall & F1-Score
+- ROC Curve & AUC
+- Classification Model Evaluation
+
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
